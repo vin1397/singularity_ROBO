@@ -1,4 +1,4 @@
-#VRML_SIM R2025a utf8
+#VRML_SIM R2022b utf8
 WorldInfo { basicTimeStep 32 }
 Viewpoint { orientation -0.33 0.90 0.29 1.10 position 5 4 5 }
 TexturedBackground { }
