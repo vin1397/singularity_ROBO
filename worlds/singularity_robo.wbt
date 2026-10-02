@@ -1,5 +1,14 @@
 #VRML_SIM R2022b utf8
-WorldInfo { basicTimeStep 32 }
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/floors/protos/Floor.proto"
+
+WorldInfo {
+  basicTimeStep 32
+}
+
+
 Viewpoint { orientation -0.33 0.90 0.29 1.10 position 5 4 5 }
 TexturedBackground { }
 TexturedBackgroundLight { luminosity 1.2 }
